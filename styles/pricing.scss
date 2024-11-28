@@ -1,0 +1,642 @@
+main{
+	width: 90rem;
+	height: 91.625rem;
+	position: relative;
+
+	.circle1{
+		position: absolute;
+		top: 0;
+		left: 3.1875rem;
+		z-index: -1;
+	}
+	.circle2{
+		position: absolute;
+		top: 11.625rem;
+		left: 59.9375rem;
+		z-index: -1;
+	}
+	
+	.heading-text{
+		width: 56.4375rem;
+		height: 19.375rem;
+		position: absolute;
+		top: 5.6875rem;
+		left: 16.8125rem;
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+		align-items: center;
+
+		.text{
+			width: 56.4375rem;
+			height: 14.25rem;
+			display: flex;
+			flex-direction: column;
+			gap: 1.5rem;
+			align-items: center;
+
+			h4{
+				width: 9rem;
+				height: 2rem;
+				background-color: #1462ff1A;
+				border-radius: 1rem;
+				color: #1462ff;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-size: 1rem;
+				font-weight: 600;
+				line-height: 1.5rem;
+			}
+
+			h1{
+				font-size: 4.5rem;
+				font-weight: bold;
+				lighting-color: 120%;
+				letter-spacing: -0.1875rem;
+				text-align: center;
+			}
+		}
+
+		.togle-slider{
+			width: 16.875rem;
+			height: 1.625rem;
+			display: flex;
+			gap: 0.75rem;
+			align-items: center;
+
+			.switch {
+				position: relative;
+				display: inline-block;
+				width: 2.75rem;
+				height: 1.5rem;
+			 }
+			 
+			 /* Hide default HTML checkbox */
+			 .switch input {
+				opacity: 0;
+				width: 0;
+				height: 0;
+			 }
+			 
+			 /* The slider */
+			 .slider {
+				position: absolute;
+				cursor: pointer;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-color: #ccc;
+				-webkit-transition: .4s;
+				transition: .4s;
+			 }
+			 
+			 .slider:before {
+				position: absolute;
+				content: "";
+				height: 1.25rem;
+				width: 1.25rem;
+				left: 0.125rem;
+				bottom: 0.125rem;
+				background-color: white;
+				-webkit-transition: .4s;
+				transition: .4s;
+			 }
+			 
+			 input:checked + .slider {
+				background-color: #EDEDED;
+			 }
+			 
+			 input:focus + .slider {
+				box-shadow: 0 0 0.0625rem #EDEDED;
+			 }
+			 
+			 input:checked + .slider:before {
+				-webkit-transform: translateX(1.2188rem);
+				-ms-transform: translateX(1.2188rem);
+				transform: translateX(1.2188rem);
+				background-color: #1462ff;
+			 }
+			 
+			 /* Rounded sliders */
+			 .slider.round {
+				border-radius: 2.125rem;
+			 }
+			 
+			 .slider.round:before {
+				border-radius: 50%;
+			 }
+
+			 p{
+				font-size: 1rem;
+				line-height: 1.625rem;
+				font-weight: 500;
+				color: #7E8492;
+			}
+		}
+	}
+
+	.pricing{
+		width: 74.875rem;
+		height: 54.0625rem;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 2rem;
+		position: absolute;
+		top: 32.6875rem;
+		left: 7.5625rem;
+
+		.card:hover{
+			transform: scale(1.05);
+		}
+			.card{
+				width: 23.625rem;
+				height: 50.0625rem;
+				padding: 2.5rem 1.5rem;
+				border-radius: 1rem;
+				background-color: #fff;
+				border: 0.0625rem solid #EDEDED;
+				margin-top: 4rem;
+				transition: 0.5s ease;
+
+					.centered{
+						width: 20.625rem;
+						height: 45.0625rem;
+						display: flex;
+						flex-direction: column;
+						gap: 2.5rem;
+						align-items: center;
+
+							button{
+								width: 10rem;
+								height: 3.5rem;
+								border-radius: 6.25rem;
+								background-color: #fff;
+								color: #1D1E25;
+								border: 0.0625rem solid #ced1d8;
+								cursor: pointer;
+								transition: 300ms ease;
+								font-size: 1rem;
+								line-height: 1.5rem;
+								font-weight: 600;
+							}
+
+							button:hover{
+								background-color: #f3f3f3;
+							}
+
+							button:active{
+								transform: scale(0.98);
+								transition: 100ms;
+							}
+
+							.paricing-content{
+								width: 20.625rem;
+								height: 39.0625rem;
+								display: flex;
+								flex-direction: column;
+								gap: 1.5rem;
+
+									.price{
+										width: 20.625rem;
+										height: 15.0625rem;
+										display: flex;
+										flex-direction: column;
+										gap: 1rem;
+
+											.bg{
+												width: 2.5rem;
+												height: 2.5rem;											
+												background-color: #F5F5F5;
+												border-radius: 50%;
+												display: flex;
+												align-items: center;
+												justify-content: center;
+											}
+
+											.price-text{
+												width: 20.625rem;
+												height: 11.5625rem;
+												display: flex;
+												flex-direction: column;
+												gap: 1.5rem;
+
+													.up-text{
+														width: 20.625rem;
+														height: 5.875rem;
+														display: flex;
+														flex-direction: column;
+														gap: 0.5rem;
+
+														h2{
+															font-size: 1.5rem;
+															line-height: 2.125rem;
+															font-weight: 600;
+														}
+
+														p{
+															font-size: 1rem;
+															line-height: 1.625rem;
+															font-weight: 500;
+															color: #7E8492;
+														}
+													}
+
+													.price-period{
+														width: 20.625rem;
+														height: 4.25rem;
+														display: flex;
+														align-items: end;
+														
+														h1{
+															font-size: 3.5rem;
+															font-weight: 600;
+															line-height: 120%;
+															letter-spacing: -0.125rem;
+															transition: 0.5s ease;
+	
+															.period{
+																font-size: 1rem;
+																line-height: 1.625rem;
+																font-weight: 500;
+																font-style: normal;
+																color: #7E8492;
+															}
+													}
+													}
+											}
+									}
+
+									.included{
+										width: 16.5625rem;
+										height: 22.5rem;
+										display: flex;
+										flex-direction: column;
+										gap: 1rem;
+
+											p{
+												font-size: 1rem;
+												line-height: 1.5rem;
+												font-weight: bold;
+											}
+
+											.yes{
+												margin-left: 1.625rem;
+												display: flex;
+												flex-direction: column;
+												gap: 1rem;
+											}
+
+											.yes li{
+												list-style-image: url(../src/svg/li.svg);
+												font-size: 1rem;
+												line-height: 1.625rem;
+												font-weight: 500;
+											}
+
+											.no{
+												margin-left: 1.625rem;
+												display: flex;
+												flex-direction: column;
+												gap: 1rem;
+											}
+
+											.no li{
+												list-style-image: url(../src/svg/liNo.svg);
+												font-size: 1rem;
+												line-height: 1.625rem;
+												font-weight: 500;
+											}
+									}
+							}
+					}
+			}
+			.dark{
+				background-color: #161A34;
+				color: #fff;
+				margin-top: 0;
+
+				.best-offers{
+					width: 20.625rem;
+					height: 2.5rem;
+					display: flex;
+					justify-content: space-between;
+
+					.bg{
+						background-color: #1462ff !important;
+					}
+
+					p{
+						width: 7.375rem;
+						height: 2rem;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						background-color: #1462ff;
+						border-radius: 6.25rem;
+						font-size: 0.875rem;
+						line-height: 1.25rem;
+						font-weight: 500;
+					}
+				}
+			}
+	}
+}
+
+.faq-body{
+	width: 90rem;
+	height: 94.125rem;
+	padding-top: 5.125rem;
+	padding-left: 12.25rem;
+
+	.faq{
+		width: 69.625rem;
+		height: 54rem;
+		display: flex;
+		flex-direction: column;
+		gap: 5rem;
+		align-items: center;
+
+		.header-text{
+			width: 43.75rem;
+			height: 7.6875rem;
+			display: flex;
+			flex-direction: column;
+			gap: 1.5rem;
+			text-align: center;
+
+			h1{
+				font-size: 3.5rem;
+				line-height: 120%;
+				letter-spacing: -0.125rem;
+				font-weight: 600;
+			}
+
+			p{
+				font-size: 1.125rem;
+				font-weight: 500;
+				line-height: 2rem;
+				color: #7E8492;
+			}
+		}
+
+		.drop-down{
+			width: 69.625rem;
+			height: 41.3125rem;
+			display: flex;
+			flex-direction: column;
+			gap: 3.5rem;
+
+			.faq-item {
+				margin-bottom: 0.625rem;
+				border-bottom: 0.0625rem solid #ccc;
+			 }
+			 
+			 .faq-question {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				cursor: pointer;
+				font-weight: bold;
+				padding: 0.625rem;
+
+				span{
+					font-size: 1.5rem;
+					font-weight: 600;
+					line-height: 150%;
+				}
+			 }
+			 
+			 .faq-icon {
+				display: inline-block;
+				font-size: 1.5rem;
+				font-weight: bold;
+				transition: transform 0.3s ease; /* Плавный поворот */
+			 }
+			 
+			 .faq-answer {
+				max-width: 40.625rem;
+				max-height: 0;
+				overflow: hidden;
+				transition: max-height 1s ease, padding 1s ease;
+				padding: 0 0.625rem;
+				color: #7E8492;
+				font-size: 1.125rem;
+				font-weight: 500;
+				line-height: 2rem;
+			 }
+			 
+			 .faq-answer.open {
+				max-height: 18.75rem; /* Задайте высоту для раскрытого состояния */
+				padding: 0.625rem;
+			 }
+			 
+		}
+	}
+}
+
+footer{
+	width: 90rem;
+	height: 48.5625rem;
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	background: #1D1E25;
+
+	.gap{
+		width: 75rem;
+		height: 10.3125rem;
+		display: flex;
+		justify-content: space-between;
+		position: absolute;
+		top: 7rem;
+		left: 7.5rem;
+		align-items: center;
+		
+	button{
+		width: 11.0625rem;
+		height: 3.5rem;
+		background-color: #ffffff;
+		color: #1D1E25;
+		border-radius: 6.25rem;
+		border: none;
+		transition: 0.3s ease;
+		cursor: pointer;
+		font-size: 1rem;
+		font-weight: bold;
+	}
+
+	button:hover{
+		background-color: #e0e0e0;
+	}
+	button:active{
+		transform: scale(0.98);
+		transition: 0.1s;
+	}
+
+		span{
+			width: 45rem;
+			height: 10.3125rem;
+			display: flex;
+			flex-direction: column;
+			gap: 1.5rem;
+			color: #fff;
+
+			h1{
+				font-size: 4rem;
+				font-weight: 600;
+				line-height: 120%;
+			}
+		
+			h3{
+				max-width: 33.9375rem;
+				font-size: 1.125rem;
+				line-height: 2rem;
+				font-weight: 500;
+				color: #AFB3BB;
+			}
+		}
+	}
+
+	.naviation{
+		width: 90rem;
+		height: 28.4375rem;
+		position: relative;
+		top: 20.125rem;
+		color: #fff;
+
+		.logo{
+			position: absolute;
+			top: 5rem;
+			left: 7.5rem;
+		}
+
+		h4{
+			max-width: 18.25rem;
+			font-size: 1rem;
+			font-weight: 500;
+			line-height: 1.625rem;
+			position: absolute;
+			top: 9.375rem;
+			left: 7.5rem;
+			color: #7E8492;
+		}
+
+		.nav-grid{
+			width: 47.75rem;
+			height: 12rem;
+			display: flex;
+			justify-content: space-between;
+			position: absolute;
+			top: 4.75rem;
+			left: 34.75rem;
+
+			.block{
+				width: max-content;
+				display: flex;
+				flex-direction: column;
+				gap: 1.5rem;
+
+				b{
+					font-size: 1rem;
+					line-height: 1.5rem;
+				}
+
+				span{
+					width: max-content;
+					display: flex;
+					flex-direction: column;
+					gap: 1rem;
+					
+					a{
+						width: max-content;
+						position: relative;
+						font-size: 1rem;
+						line-height: 1.5rem;
+						font-weight: 400;
+						color: #7E8492;
+						text-decoration: none;
+					}
+					a:after {
+						display: block;
+						position: absolute;
+						left: 0;
+						width: 0;
+						height: 0.075rem;
+						background-color: #fff;
+						content: "";
+						transition: width 0.3s ease-out;
+				  }
+				  
+				  a:hover:after,
+				  a:focus:after {
+						width: 100%;
+				  }
+				}
+			}
+		}
+		.line{
+			width: 75rem;
+			border-bottom: 0.0625rem solid #606060;
+			position: absolute;
+			top: 21.6875rem;
+			left: 7.5rem;
+		}
+
+		.bottom{
+			width: 75rem;
+			height: 1.25rem;
+			position: relative;
+			top: 23.5625rem;
+			left: 7.5rem;
+			display: flex;
+			justify-content: space-between;
+
+			p{
+				font-size: 0.875rem;
+				line-height: 1.25rem;
+				font-weight: 500;
+				color: #fff;
+			}
+
+			.bottom-content{
+				width: 36.5rem;
+				height: 1.25rem;
+				display: flex;
+				gap: 4.5rem;
+				align-items: center;
+
+				.social-media{
+					width: 9.5rem;
+					height: 1.25rem;
+					display: flex;
+					gap: 1.5rem;
+
+					svg{
+						cursor: pointer;
+					}
+				}
+
+				.footer-links{
+					width: 22.5rem;
+					height: 1.25rem;
+					display: flex;
+					gap: 2.5rem;
+
+					a{
+						color: #fff;
+						text-decoration: none;
+						font-size: 0.875rem;
+						line-height: 1.25rem;
+						font-weight: 500;
+					}
+				}
+			}
+		}
+
+	}
+}
