@@ -149,6 +149,7 @@ main{
 
 		.card:hover{
 			transform: scale(1.05);
+			box-shadow: 4px 4px 25px rgb(189, 189, 189);
 		}
 			.card{
 				width: 23.625rem;
@@ -255,6 +256,7 @@ main{
 															line-height: 120%;
 															letter-spacing: -0.125rem;
 															transition: 0.5s ease;
+														}
 	
 															.period{
 																font-size: 1rem;
@@ -263,7 +265,7 @@ main{
 																font-style: normal;
 																color: #7E8492;
 															}
-													}
+													
 													}
 											}
 									}
@@ -419,7 +421,7 @@ main{
 				max-width: 40.625rem;
 				max-height: 0;
 				overflow: hidden;
-				transition: max-height 1s ease, padding 1s ease;
+				transition: max-height 0.9s ease, padding 0.3s ease;
 				padding: 0 0.625rem;
 				color: #7E8492;
 				font-size: 1.125rem;
@@ -618,6 +620,23 @@ footer{
 
 					svg{
 						cursor: pointer;
+					}
+
+					path{
+						transition: 200ms;
+					}
+
+					.facebook:hover path{
+						fill: #3b5998;
+					}
+					.twitter:hover path{
+						fill: #00acee;
+					}
+					.inst:hover path{
+						fill:  #aa4187;
+					}
+					.IN:hover path{
+						fill: #0e76a8;
 					}
 				}
 

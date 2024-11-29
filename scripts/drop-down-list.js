@@ -31,14 +31,15 @@ document.querySelectorAll('.faq-question').forEach((question) => {
 	// Цены для ежемесячной и ежегодной подписок
 	const monthlyPrices = [100, 140, 210];
 	const annualPrices = [1000, 1400, 2100];
-	const month = ['/mo'];
-	const year = ['/ye']
+	const month = '/mo';
+	const year = '/ye'
  
 	// Обновляем цены в зависимости от состояния переключателя
 	document.querySelectorAll('.pricing-card').forEach((card, index) => {
 	  const priceElement = card.querySelector('.price-value');
-	  const periodElement = card.querySelectorAll('.period');
+	  const periodElement = card.querySelector('.period');
+	  console.log(periodElement);
 	  priceElement.textContent = isAnnual ? `$${annualPrices[index]}` : `$${monthlyPrices[index]}`;
-	  periodElement.textContent = isAnnual ? `$${year[index]}` : `$${month[index]}`;
+	  periodElement.textContent = isAnnual ? `$${year}` : `$${month}`;
 	});
  });

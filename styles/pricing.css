@@ -4,70 +4,56 @@ main {
   height: 91.625rem;
   position: relative;
 }
+
 main .circle1 {
   position: absolute;
   top: 0;
   left: 3.1875rem;
   z-index: -1;
 }
+
 main .circle2 {
   position: absolute;
   top: 11.625rem;
   left: 59.9375rem;
   z-index: -1;
 }
+
 main .heading-text {
   width: 56.4375rem;
   height: 19.375rem;
   position: absolute;
   top: 5.6875rem;
   left: 16.8125rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 3.5rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
+
 main .heading-text .text {
   width: 56.4375rem;
   height: 14.25rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 1.5rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
+
 main .heading-text .text h4 {
   width: 9rem;
   height: 2rem;
-  background-color: rgba(20, 98, 255, 0.1019607843);
+  background-color: #1462ff1A;
   border-radius: 1rem;
   color: #1462ff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.5rem;
 }
+
 main .heading-text .text h1 {
   font-size: 4.5rem;
   font-weight: bold;
@@ -75,31 +61,31 @@ main .heading-text .text h1 {
   letter-spacing: -0.1875rem;
   text-align: center;
 }
+
 main .heading-text .togle-slider {
   width: 16.875rem;
   height: 1.625rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 0.75rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   /* Hide default HTML checkbox */
   /* The slider */
   /* Rounded sliders */
 }
+
 main .heading-text .togle-slider .switch {
   position: relative;
   display: inline-block;
   width: 2.75rem;
   height: 1.5rem;
 }
+
 main .heading-text .togle-slider .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
+
 main .heading-text .togle-slider .slider {
   position: absolute;
   cursor: pointer;
@@ -108,9 +94,9 @@ main .heading-text .togle-slider .slider {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  transition: .4s;
 }
+
 main .heading-text .togle-slider .slider:before {
   position: absolute;
   content: "";
@@ -119,34 +105,37 @@ main .heading-text .togle-slider .slider:before {
   left: 0.125rem;
   bottom: 0.125rem;
   background-color: white;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  transition: .4s;
 }
+
 main .heading-text .togle-slider input:checked + .slider {
   background-color: #EDEDED;
 }
+
 main .heading-text .togle-slider input:focus + .slider {
-  -webkit-box-shadow: 0 0 0.0625rem #EDEDED;
-          box-shadow: 0 0 0.0625rem #EDEDED;
+  box-shadow: 0 0 0.0625rem #EDEDED;
 }
+
 main .heading-text .togle-slider input:checked + .slider:before {
-  -webkit-transform: translateX(1.2188rem);
-  -ms-transform: translateX(1.2188rem);
   transform: translateX(1.2188rem);
   background-color: #1462ff;
 }
+
 main .heading-text .togle-slider .slider.round {
   border-radius: 2.125rem;
 }
+
 main .heading-text .togle-slider .slider.round:before {
   border-radius: 50%;
 }
+
 main .heading-text .togle-slider p {
   font-size: 1rem;
   line-height: 1.625rem;
   font-weight: 500;
   color: #7E8492;
 }
+
 main .pricing {
   width: 74.875rem;
   height: 54.0625rem;
@@ -157,11 +146,12 @@ main .pricing {
   top: 32.6875rem;
   left: 7.5625rem;
 }
+
 main .pricing .card:hover {
-  -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-          transform: scale(1.05);
+  transform: scale(1.05);
+  box-shadow: 4px 4px 25px #bdbdbd;
 }
+
 main .pricing .card {
   width: 23.625rem;
   height: 50.0625rem;
@@ -170,24 +160,18 @@ main .pricing .card {
   background-color: #fff;
   border: 0.0625rem solid #EDEDED;
   margin-top: 4rem;
-  -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
+
 main .pricing .card .centered {
   width: 20.625rem;
   height: 45.0625rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 2.5rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
+
 main .pricing .card .centered button {
   width: 10rem;
   height: 3.5rem;
@@ -196,202 +180,164 @@ main .pricing .card .centered button {
   color: #1D1E25;
   border: 0.0625rem solid #ced1d8;
   cursor: pointer;
-  -webkit-transition: 300ms ease;
   transition: 300ms ease;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 600;
 }
+
 main .pricing .card .centered button:hover {
   background-color: #f3f3f3;
 }
+
 main .pricing .card .centered button:active {
-  -webkit-transform: scale(0.98);
-      -ms-transform: scale(0.98);
-          transform: scale(0.98);
-  -webkit-transition: 100ms;
+  transform: scale(0.98);
   transition: 100ms;
 }
+
 main .pricing .card .centered .paricing-content {
   width: 20.625rem;
   height: 39.0625rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 1.5rem;
 }
+
 main .pricing .card .centered .paricing-content .price {
   width: 20.625rem;
   height: 15.0625rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 1rem;
 }
+
 main .pricing .card .centered .paricing-content .price .bg {
   width: 2.5rem;
   height: 2.5rem;
   background-color: #F5F5F5;
   border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
+
 main .pricing .card .centered .paricing-content .price .price-text {
   width: 20.625rem;
   height: 11.5625rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 1.5rem;
 }
+
 main .pricing .card .centered .paricing-content .price .price-text .up-text {
   width: 20.625rem;
   height: 5.875rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 0.5rem;
 }
+
 main .pricing .card .centered .paricing-content .price .price-text .up-text h2 {
   font-size: 1.5rem;
   line-height: 2.125rem;
   font-weight: 600;
 }
+
 main .pricing .card .centered .paricing-content .price .price-text .up-text p {
   font-size: 1rem;
   line-height: 1.625rem;
   font-weight: 500;
   color: #7E8492;
 }
+
 main .pricing .card .centered .paricing-content .price .price-text .price-period {
   width: 20.625rem;
   height: 4.25rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
+  align-items: end;
 }
+
 main .pricing .card .centered .paricing-content .price .price-text .price-period h1 {
   font-size: 3.5rem;
   font-weight: 600;
   line-height: 120%;
   letter-spacing: -0.125rem;
-  -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
-main .pricing .card .centered .paricing-content .price .price-text .price-period h1 .period {
+
+main .pricing .card .centered .paricing-content .price .price-text .price-period .period {
   font-size: 1rem;
   line-height: 1.625rem;
   font-weight: 500;
   font-style: normal;
   color: #7E8492;
 }
+
 main .pricing .card .centered .paricing-content .included {
   width: 16.5625rem;
   height: 22.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 1rem;
 }
+
 main .pricing .card .centered .paricing-content .included p {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: bold;
 }
+
 main .pricing .card .centered .paricing-content .included .yes {
   margin-left: 1.625rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 1rem;
 }
+
 main .pricing .card .centered .paricing-content .included .yes li {
   list-style-image: url(../src/svg/li.svg);
   font-size: 1rem;
   line-height: 1.625rem;
   font-weight: 500;
 }
+
 main .pricing .card .centered .paricing-content .included .no {
   margin-left: 1.625rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 1rem;
 }
+
 main .pricing .card .centered .paricing-content .included .no li {
   list-style-image: url(../src/svg/liNo.svg);
   font-size: 1rem;
   line-height: 1.625rem;
   font-weight: 500;
 }
+
 main .pricing .dark {
   background-color: #161A34;
   color: #fff;
   margin-top: 0;
 }
+
 main .pricing .dark .best-offers {
   width: 20.625rem;
   height: 2.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
+
 main .pricing .dark .best-offers .bg {
   background-color: #1462ff !important;
 }
+
 main .pricing .dark .best-offers p {
   width: 7.375rem;
   height: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   background-color: #1462ff;
   border-radius: 6.25rem;
   font-size: 0.875rem;
@@ -405,104 +351,90 @@ main .pricing .dark .best-offers p {
   padding-top: 5.125rem;
   padding-left: 12.25rem;
 }
+
 .faq-body .faq {
   width: 69.625rem;
   height: 54rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 5rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
+
 .faq-body .faq .header-text {
   width: 43.75rem;
   height: 7.6875rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 1.5rem;
   text-align: center;
 }
+
 .faq-body .faq .header-text h1 {
   font-size: 3.5rem;
   line-height: 120%;
   letter-spacing: -0.125rem;
   font-weight: 600;
 }
+
 .faq-body .faq .header-text p {
   font-size: 1.125rem;
   font-weight: 500;
   line-height: 2rem;
   color: #7E8492;
 }
+
 .faq-body .faq .drop-down {
   width: 69.625rem;
   height: 41.3125rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 3.5rem;
 }
+
 .faq-body .faq .drop-down .faq-item {
   margin-bottom: 0.625rem;
   border-bottom: 0.0625rem solid #ccc;
 }
+
 .faq-body .faq .drop-down .faq-question {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   cursor: pointer;
   font-weight: bold;
   padding: 0.625rem;
 }
+
 .faq-body .faq .drop-down .faq-question span {
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 150%;
 }
+
 .faq-body .faq .drop-down .faq-icon {
   display: inline-block;
   font-size: 1.5rem;
   font-weight: bold;
-  -webkit-transition: -webkit-transform 0.3s ease;
-  transition: -webkit-transform 0.3s ease;
   transition: transform 0.3s ease;
-  transition: transform 0.3s ease, -webkit-transform 0.3s ease; /* Плавный поворот */
+  /* Плавный поворот */
 }
+
 .faq-body .faq .drop-down .faq-answer {
   max-width: 40.625rem;
   max-height: 0;
   overflow: hidden;
-  -webkit-transition: max-height 1s ease, padding 1s ease;
-  transition: max-height 1s ease, padding 1s ease;
+  transition: max-height 0.9s ease, padding 0.3s ease;
   padding: 0 0.625rem;
   color: #7E8492;
   font-size: 1.125rem;
   font-weight: 500;
   line-height: 2rem;
 }
+
 .faq-body .faq .drop-down .faq-answer.open {
-  max-height: 18.75rem; /* Задайте высоту для раскрытого состояния */
+  max-height: 18.75rem;
+  /* Задайте высоту для раскрытого состояния */
   padding: 0.625rem;
 }
 
@@ -513,31 +445,22 @@ footer {
   top: 0;
   left: 0;
   overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   background: #1D1E25;
 }
+
 footer .gap {
   width: 75rem;
   height: 10.3125rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   position: absolute;
   top: 7rem;
   left: 7.5rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
+
 footer .gap button {
   width: 11.0625rem;
   height: 3.5rem;
@@ -545,40 +468,36 @@ footer .gap button {
   color: #1D1E25;
   border-radius: 6.25rem;
   border: none;
-  -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   cursor: pointer;
   font-size: 1rem;
   font-weight: bold;
 }
+
 footer .gap button:hover {
   background-color: #e0e0e0;
 }
+
 footer .gap button:active {
-  -webkit-transform: scale(0.98);
-      -ms-transform: scale(0.98);
-          transform: scale(0.98);
-  -webkit-transition: 0.1s;
+  transform: scale(0.98);
   transition: 0.1s;
 }
+
 footer .gap span {
   width: 45rem;
   height: 10.3125rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 1.5rem;
   color: #fff;
 }
+
 footer .gap span h1 {
   font-size: 4rem;
   font-weight: 600;
   line-height: 120%;
 }
+
 footer .gap span h3 {
   max-width: 33.9375rem;
   font-size: 1.125rem;
@@ -586,6 +505,7 @@ footer .gap span h3 {
   font-weight: 500;
   color: #AFB3BB;
 }
+
 footer .naviation {
   width: 90rem;
   height: 28.4375rem;
@@ -593,11 +513,13 @@ footer .naviation {
   top: 20.125rem;
   color: #fff;
 }
+
 footer .naviation .logo {
   position: absolute;
   top: 5rem;
   left: 7.5rem;
 }
+
 footer .naviation h4 {
   max-width: 18.25rem;
   font-size: 1rem;
@@ -608,52 +530,37 @@ footer .naviation h4 {
   left: 7.5rem;
   color: #7E8492;
 }
+
 footer .naviation .nav-grid {
   width: 47.75rem;
   height: 12rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   position: absolute;
   top: 4.75rem;
   left: 34.75rem;
 }
+
 footer .naviation .nav-grid .block {
-  width: -webkit-max-content;
-  width: -moz-max-content;
   width: max-content;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 1.5rem;
 }
+
 footer .naviation .nav-grid .block b {
   font-size: 1rem;
   line-height: 1.5rem;
 }
+
 footer .naviation .nav-grid .block span {
-  width: -webkit-max-content;
-  width: -moz-max-content;
   width: max-content;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 1rem;
 }
+
 footer .naviation .nav-grid .block span a {
-  width: -webkit-max-content;
-  width: -moz-max-content;
   width: max-content;
   position: relative;
   font-size: 1rem;
@@ -662,6 +569,7 @@ footer .naviation .nav-grid .block span a {
   color: #7E8492;
   text-decoration: none;
 }
+
 footer .naviation .nav-grid .block span a:after {
   display: block;
   position: absolute;
@@ -670,13 +578,14 @@ footer .naviation .nav-grid .block span a:after {
   height: 0.075rem;
   background-color: #fff;
   content: "";
-  -webkit-transition: width 0.3s ease-out;
   transition: width 0.3s ease-out;
 }
+
 footer .naviation .nav-grid .block span a:hover:after,
 footer .naviation .nav-grid .block span a:focus:after {
   width: 100%;
 }
+
 footer .naviation .line {
   width: 75rem;
   border-bottom: 0.0625rem solid #606060;
@@ -684,55 +593,70 @@ footer .naviation .line {
   top: 21.6875rem;
   left: 7.5rem;
 }
+
 footer .naviation .bottom {
   width: 75rem;
   height: 1.25rem;
   position: relative;
   top: 23.5625rem;
   left: 7.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
+
 footer .naviation .bottom p {
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 500;
   color: #fff;
 }
+
 footer .naviation .bottom .bottom-content {
   width: 36.5rem;
   height: 1.25rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 4.5rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
+
 footer .naviation .bottom .bottom-content .social-media {
   width: 9.5rem;
   height: 1.25rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 1.5rem;
 }
+
 footer .naviation .bottom .bottom-content .social-media svg {
   cursor: pointer;
 }
+
+footer .naviation .bottom .bottom-content .social-media path {
+  transition: 200ms;
+}
+
+footer .naviation .bottom .bottom-content .social-media .facebook:hover path {
+  fill: #3b5998;
+}
+
+footer .naviation .bottom .bottom-content .social-media .twitter:hover path {
+  fill: #00acee;
+}
+
+footer .naviation .bottom .bottom-content .social-media .inst:hover path {
+  fill: #aa4187;
+}
+
+footer .naviation .bottom .bottom-content .social-media .IN:hover path {
+  fill: #0e76a8;
+}
+
 footer .naviation .bottom .bottom-content .footer-links {
   width: 22.5rem;
   height: 1.25rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 2.5rem;
 }
+
 footer .naviation .bottom .bottom-content .footer-links a {
   color: #fff;
   text-decoration: none;
@@ -740,3 +664,4 @@ footer .naviation .bottom .bottom-content .footer-links a {
   line-height: 1.25rem;
   font-weight: 500;
 }
+/*# sourceMappingURL=pricing.css.map */
