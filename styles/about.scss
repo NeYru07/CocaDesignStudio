@@ -98,12 +98,23 @@ main{
                     line-height: 1.5rem;
                     font-weight: bold;
                     color: #fff;
+						  cursor: pointer;
+						  transition: 0.5s ease;
 
                     b{
                         font-size: 1.25rem;
                         font-weight: 900;
                     }
                 }
+
+					 button:hover{
+						background-color: #30323d;
+					}
+
+					button:active{
+						transform: scale(0.98);
+						transition: 100ms;
+					}
 
                 .text-block{
                     width: 31.375rem;
@@ -170,6 +181,14 @@ main{
     height: 90.875rem;
     position: relative;
     padding: 10rem 7.3125rem;
+	 overflow: hidden;
+
+	.circle2{
+		position: absolute;
+		top: 0.625rem;
+		left: 60.375rem;
+		z-index: -1;
+	}
 
     .team-content{
         width: 75.375rem;
@@ -259,6 +278,28 @@ main{
                             height: 2rem;
                             display: flex;
                             gap: 0.5rem;
+
+									 svg{
+										width: 2rem;
+										height: 2rem; 
+										cursor: pointer;
+
+										path{
+											transition: 200ms;
+										}									
+									}
+									.twitter:hover .twitter-bg{
+										fill: #00acee;
+										opacity: 0.3;
+									}
+									.in:hover .in-bg{
+										fill: #0e76a8;
+										opacity: 0.3;
+									}
+									.inst:hover .inst-bg{
+										fill: #aa4187;
+										opacity: 0.3;
+									}
                         }
                     }
                 }
@@ -293,12 +334,30 @@ main{
                     }
 
                     a{
+								width: 10.25rem;
                         font-size: 1rem;
                         font-weight: 600;
                         line-height: 1.5rem;
                         color: #000;
                         text-decoration: none;
+								position: relative;
                     }
+
+						  a:after {
+							display: block;
+							position: absolute;
+							left: 0;
+							width: 0;
+							height: 0.0938rem;
+							background-color: #000000;
+							content: "";
+							transition: width 0.5s ease-out;
+					  }
+					  
+					  a:hover:after,
+					  a:focus:after {
+							width: 100%;
+					  }
                 }
             }
         }
