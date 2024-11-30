@@ -296,13 +296,14 @@ main{
 											}
 
 											.yes li{
-												list-style-image: url(../src/svg/li.svg);
-												size: 1.25rem;
-												line-height: 16px;
+												list-style-type: '✔';
+												line-height: 1rem;
 												font-size: 1rem;
 												line-height: 1.625rem;
 												font-weight: 500;
+												padding-left: 0.3125rem;
 											}
+											
 
 											.no{
 												margin-left: 1.625rem;
@@ -312,10 +313,11 @@ main{
 											}
 
 											.no li{
-												list-style-image: url(../src/svg/liNo.svg);
+												list-style-type: '✖';
 												font-size: 1rem;
 												line-height: 1.625rem;
 												font-weight: 500;
+												padding-left: 0.3125rem;
 											}
 									}
 							}

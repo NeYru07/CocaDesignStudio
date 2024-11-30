@@ -346,12 +346,12 @@ main .pricing .card .centered .paricing-content .included .yes {
   gap: 1rem;
 }
 main .pricing .card .centered .paricing-content .included .yes li {
-  list-style-image: url(../src/svg/li.svg);
-  size: 1.25rem;
-  line-height: 16px;
+  list-style-type: "✔";
+  line-height: 1rem;
   font-size: 1rem;
   line-height: 1.625rem;
   font-weight: 500;
+  padding-left: 0.3125rem;
 }
 main .pricing .card .centered .paricing-content .included .no {
   margin-left: 1.625rem;
@@ -365,10 +365,11 @@ main .pricing .card .centered .paricing-content .included .no {
   gap: 1rem;
 }
 main .pricing .card .centered .paricing-content .included .no li {
-  list-style-image: url(../src/svg/liNo.svg);
+  list-style-type: "✖";
   font-size: 1rem;
   line-height: 1.625rem;
   font-weight: 500;
+  padding-left: 0.3125rem;
 }
 main .pricing .dark {
   background-color: #161A34;

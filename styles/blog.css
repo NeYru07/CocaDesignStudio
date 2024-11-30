@@ -338,6 +338,10 @@ main .slider .card2 .text-block p {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
+.last-block .block-content .block-heading .btns button svg {
+  width: 1rem;
+  height: 0.8125rem;
+}
 .last-block .block-content .block-heading .btns .white {
   background-color: #fff;
   border: 0.0625rem solid #CED1D8;

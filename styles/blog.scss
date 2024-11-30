@@ -305,6 +305,11 @@ main{
 					border: none;
 					cursor: pointer;
 					transition: 0.3s ease;
+
+					svg{
+						width: 1rem;
+						height: 0.8125rem;
+					}
 				}
 
 				.white{
