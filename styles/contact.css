@@ -3,7 +3,6 @@ main {
   height: 62.125rem;
   position: relative;
 }
-
 main h1 {
   position: absolute;
   top: 5.625rem;
@@ -14,7 +13,6 @@ main h1 {
   letter-spacing: -0.1875rem;
   max-width: 41.625rem;
 }
-
 main .location {
   position: absolute;
   top: 22.625rem;
@@ -24,12 +22,10 @@ main .location {
   display: flex;
   gap: 5.1875rem;
 }
-
 main .location img {
   width: 61.6875rem;
   height: 34.0625rem;
 }
-
 main .location .contacts {
   width: 11rem;
   height: 36.125rem;
@@ -37,7 +33,6 @@ main .location .contacts {
   flex-direction: column;
   gap: 2.5rem;
 }
-
 main .location .contacts .contact {
   width: 11rem;
   height: 10.375rem;
@@ -46,20 +41,17 @@ main .location .contacts .contact {
   gap: 1.25rem;
   border-bottom: 0.0625rem solid #AFB3BB;
 }
-
 main .location .contacts .contact h3 {
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 2rem;
 }
-
 main .location .contacts .contact p {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
   color: #7E8492;
 }
-
 main .location .contacts .contact b {
   font-size: 1rem;
   font-weight: 500;
@@ -73,7 +65,6 @@ main .location .contacts .contact b {
   border-top: 0.0625rem solid #EDEDED;
   border-bottom: 0.0625rem solid #EDEDED;
 }
-
 .partners .partners-content {
   display: flex;
   padding: 4rem 10.3125rem;
@@ -81,7 +72,6 @@ main .location .contacts .contact b {
   width: 88.3125rem;
   height: 19.25rem;
 }
-
 .partners .partners-content span {
   display: flex;
   flex-direction: column;
@@ -89,20 +79,17 @@ main .location .contacts .contact b {
   height: 9.1875rem;
   gap: 1rem;
 }
-
 .partners .partners-content span h1 {
   font-size: 3.5rem;
   lighting-color: 120%;
   letter-spacing: -0.125rem;
   font-weight: 600;
 }
-
 .partners .partners-content span p {
   font-size: 1.125rem;
   line-height: 2rem;
   color: #7E8492;
 }
-
 .partners .partners-content .partners-grid {
   width: 45.625rem;
   height: 11.25rem;
@@ -110,42 +97,34 @@ main .location .contacts .contact b {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
 }
-
 .partners .partners-content .partners-grid .img1 {
   width: 6.0625rem;
   height: 1.875rem;
 }
-
 .partners .partners-content .partners-grid .img2 {
   width: 6.0625rem;
   height: 1.875rem;
 }
-
 .partners .partners-content .partners-grid .img3 {
   width: 5.8825rem;
   height: 1.7575rem;
 }
-
 .partners .partners-content .partners-grid .img4 {
   width: 7.1875rem;
   height: 1.5237rem;
 }
-
 .partners .partners-content .partners-grid .img5 {
   width: 5.5881rem;
   height: 1.875rem;
 }
-
 .partners .partners-content .partners-grid .img6 {
   width: 5.765rem;
   height: 2rem;
 }
-
 .partners .partners-content .partners-grid .img7 {
   width: 7.0625rem;
   height: 1.6406rem;
 }
-
 .partners .partners-content .partners-grid .img8 {
   width: 4.9375rem;
   height: 1.875rem;
@@ -159,7 +138,6 @@ main .location .contacts .contact b {
   position: relative;
   overflow: hidden;
 }
-
 .forms img {
   position: absolute;
   top: 7.5rem;
@@ -168,7 +146,6 @@ main .location .contacts .contact b {
   height: 55.3125rem;
   z-index: -1;
 }
-
 .forms .form {
   width: 38rem;
   height: 49rem;
@@ -180,7 +157,6 @@ main .location .contacts .contact b {
   z-index: 2;
   border: 0.0625rem solid #CED1D8;
 }
-
 .forms .form .form-content {
   width: 32rem;
   height: 42rem;
@@ -188,7 +164,6 @@ main .location .contacts .contact b {
   flex-direction: column;
   gap: 3rem;
 }
-
 .forms .form .form-content .heading {
   width: 32rem;
   height: 5.875rem;
@@ -196,26 +171,22 @@ main .location .contacts .contact b {
   flex-direction: column;
   gap: 1.25rem;
 }
-
 .forms .form .form-content .heading h1 {
   font-size: 2.25rem;
   font-weight: 600;
   line-height: 2.75rem;
   letter-spacing: -2%;
 }
-
 .forms .form .form-content .heading p, .forms .form .form-content .heading a {
   font-size: 1.125rem;
   line-height: 1.875rem;
   font-weight: 400;
 }
-
 .forms .form .form-content .heading a {
   font-weight: 500;
   text-decoration: none;
   color: #1463FF;
 }
-
 .forms .form .form-content .main-window {
   width: 32rem;
   height: 33.125rem;
@@ -223,7 +194,6 @@ main .location .contacts .contact b {
   flex-direction: column;
   gap: 2rem;
 }
-
 .forms .form .form-content .main-window .form-fields {
   width: 32rem;
   height: 27.625rem;
@@ -231,7 +201,6 @@ main .location .contacts .contact b {
   flex-direction: column;
   gap: 1.5rem;
 }
-
 .forms .form .form-content .main-window .form-fields .sim {
   width: 32rem;
   height: 4.375rem;
@@ -239,36 +208,36 @@ main .location .contacts .contact b {
   flex-direction: column;
   gap: 0.375rem;
 }
-
 .forms .form .form-content .main-window .form-fields .sim label {
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 500;
 }
-
 .forms .form .form-content .main-window .form-fields .sim input {
   border: 0.0625rem solid #EDEDED;
   height: 2.75rem;
   padding-left: 0.875rem;
   border-radius: 0.5rem;
 }
-
+.forms .form .form-content .main-window .form-fields .sim input::-moz-placeholder {
+  color: #7E8492;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
 .forms .form .form-content .main-window .form-fields .sim input::placeholder {
   color: #7E8492;
   font-size: 0.875rem;
   line-height: 1.5rem;
   font-weight: 400;
 }
-
 .forms .form .form-content .main-window .form-fields .sim input:focus {
   outline: none;
 }
-
 .forms .form .form-content .main-window .form-fields .form-names {
   flex-direction: row;
   gap: 2rem;
 }
-
 .forms .form .form-content .main-window .form-fields .form-names .fi {
   width: 15rem;
   height: 4.375rem;
@@ -276,34 +245,28 @@ main .location .contacts .contact b {
   flex-direction: column;
   gap: 0.375rem;
 }
-
 .forms .form .form-content .main-window .form-fields .form-phone .phone-country {
   width: 32rem;
   height: 2.75rem;
   display: flex;
 }
-
 .forms .form .form-content .main-window .form-fields .form-phone .phone-country input {
   border-left: none;
   width: 32rem;
   border-radius: 0 0.5rem 0.5rem 0;
 }
-
 .forms .form .form-content .main-window .form-fields .form-phone .phone-country select {
   border: 0.0625rem solid #EDEDED;
   border-right: none;
   border-radius: 0.5rem 0 0 0.5rem;
 }
-
 .forms .form .form-content .main-window .form-fields .form-phone .phone-country select:focus {
   outline: none;
 }
-
 .forms .form .form-content .main-window .form-fields .form-message {
   width: 32rem;
   height: 10rem;
 }
-
 .forms .form .form-content .main-window .form-fields .form-message textarea {
   width: 32rem;
   height: 8.375rem;
@@ -313,11 +276,9 @@ main .location .contacts .contact b {
   border-radius: 0.5rem;
   resize: none;
 }
-
 .forms .form .form-content .main-window .form-fields .form-message textarea:focus {
   outline: none;
 }
-
 .forms .form .form-content .main-window button {
   width: 10.4375rem;
   height: 3.5rem;
@@ -330,11 +291,9 @@ main .location .contacts .contact b {
   line-height: 1.5rem;
   font-weight: 700;
 }
-
 .forms .form .form-content .main-window button:hover {
   background-color: #333441;
 }
-
 .forms .form .form-content .main-window button:active {
   transform: scale(0.97);
   transition: 100ms;
@@ -351,7 +310,6 @@ footer {
   flex-direction: column;
   background: #1D1E25;
 }
-
 footer .gap {
   width: 75rem;
   height: 10.3125rem;
@@ -362,7 +320,6 @@ footer .gap {
   left: 7.5rem;
   align-items: center;
 }
-
 footer .gap button {
   width: 11.0625rem;
   height: 3.5rem;
@@ -375,16 +332,13 @@ footer .gap button {
   font-size: 1rem;
   font-weight: bold;
 }
-
 footer .gap button:hover {
   background-color: #e0e0e0;
 }
-
 footer .gap button:active {
   transform: scale(0.98);
   transition: 0.1s;
 }
-
 footer .gap span {
   width: 45rem;
   height: 10.3125rem;
@@ -393,13 +347,11 @@ footer .gap span {
   gap: 1.5rem;
   color: #fff;
 }
-
 footer .gap span h1 {
   font-size: 4rem;
   font-weight: 600;
   line-height: 120%;
 }
-
 footer .gap span h3 {
   max-width: 33.9375rem;
   font-size: 1.125rem;
@@ -407,7 +359,6 @@ footer .gap span h3 {
   font-weight: 500;
   color: #AFB3BB;
 }
-
 footer .naviation {
   width: 90rem;
   height: 28.4375rem;
@@ -415,13 +366,11 @@ footer .naviation {
   top: 20.125rem;
   color: #fff;
 }
-
 footer .naviation .logo {
   position: absolute;
   top: 5rem;
   left: 7.5rem;
 }
-
 footer .naviation h4 {
   max-width: 18.25rem;
   font-size: 1rem;
@@ -432,7 +381,6 @@ footer .naviation h4 {
   left: 7.5rem;
   color: #7E8492;
 }
-
 footer .naviation .nav-grid {
   width: 47.75rem;
   height: 12rem;
@@ -442,27 +390,26 @@ footer .naviation .nav-grid {
   top: 4.75rem;
   left: 34.75rem;
 }
-
 footer .naviation .nav-grid .block {
+  width: -moz-max-content;
   width: max-content;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
-
 footer .naviation .nav-grid .block b {
   font-size: 1rem;
   line-height: 1.5rem;
 }
-
 footer .naviation .nav-grid .block span {
+  width: -moz-max-content;
   width: max-content;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-
 footer .naviation .nav-grid .block span a {
+  width: -moz-max-content;
   width: max-content;
   position: relative;
   font-size: 1rem;
@@ -471,7 +418,6 @@ footer .naviation .nav-grid .block span a {
   color: #7E8492;
   text-decoration: none;
 }
-
 footer .naviation .nav-grid .block span a:after {
   display: block;
   position: absolute;
@@ -482,12 +428,10 @@ footer .naviation .nav-grid .block span a:after {
   content: "";
   transition: width 0.3s ease-out;
 }
-
 footer .naviation .nav-grid .block span a:hover:after,
 footer .naviation .nav-grid .block span a:focus:after {
   width: 100%;
 }
-
 footer .naviation .line {
   width: 75rem;
   border-bottom: 0.0625rem solid #606060;
@@ -495,7 +439,6 @@ footer .naviation .line {
   top: 21.6875rem;
   left: 7.5rem;
 }
-
 footer .naviation .bottom {
   width: 75rem;
   height: 1.25rem;
@@ -505,14 +448,12 @@ footer .naviation .bottom {
   display: flex;
   justify-content: space-between;
 }
-
 footer .naviation .bottom p {
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 500;
   color: #fff;
 }
-
 footer .naviation .bottom .bottom-content {
   width: 36.5rem;
   height: 1.25rem;
@@ -520,30 +461,25 @@ footer .naviation .bottom .bottom-content {
   gap: 4.5rem;
   align-items: center;
 }
-
 footer .naviation .bottom .bottom-content .social-media {
   width: 9.5rem;
   height: 1.25rem;
   display: flex;
   gap: 1.5rem;
 }
-
 footer .naviation .bottom .bottom-content .social-media svg {
   cursor: pointer;
 }
-
 footer .naviation .bottom .bottom-content .footer-links {
   width: 22.5rem;
   height: 1.25rem;
   display: flex;
   gap: 2.5rem;
 }
-
 footer .naviation .bottom .bottom-content .footer-links a {
   color: #fff;
   text-decoration: none;
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 500;
-}
-/*# sourceMappingURL=contact.css.map */
+}/*# sourceMappingURL=contact.css.map */
