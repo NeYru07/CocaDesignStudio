@@ -261,6 +261,10 @@ main .statistic span .p2 .b2 {
           flex-direction: column;
   gap: 1.5rem;
 }
+.overview .grid-block span svg {
+  max-width: 2.125rem;
+  max-height: 2.125rem;
+}
 .overview .grid-block span h3 {
   font-size: 2rem;
   font-weight: 600;
@@ -352,6 +356,10 @@ main .statistic span .p2 .b2 {
   gap: 1.625rem;
   width: 15.9375rem;
   height: 5.4375rem;
+}
+.features .img-cont .statistic .statistic-graph svg {
+  width: 5.9375rem;
+  height: 5.5rem;
 }
 .features .img-cont .statistic .statistic-graph .statistic-block-text {
   width: 8.4375rem;
@@ -448,6 +456,10 @@ main .statistic span .p2 .b2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.features .txt-content .gap span svg {
+  width: 1.25rem;
+  height: 1.25rem;
 }
 .features .txt-content .gap span p {
   color: #000;

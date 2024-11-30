@@ -246,6 +246,11 @@ main{
 			flex-direction: column;
 			gap: 1.5rem;
 
+			svg{
+				max-width: 2.125rem;
+				max-height: 2.125rem;
+			}
+
 			h3{
 				font-size: 2rem;
 				font-weight: 600;
@@ -331,6 +336,11 @@ main{
 					width: 15.9375rem;
 					height: 5.4375rem;
 
+					svg{
+						width: 5.9375rem;
+						height: 5.5rem;
+					}
+
 					.statistic-block-text{
 						width: 8.4375rem;
 						height: 4.9375rem;
@@ -406,6 +416,11 @@ main{
 				display: flex;
 				gap: 1rem;
 				align-items: center;
+
+				svg{
+					width: 1.25rem;
+					height: 1.25rem;
+				}
 
 				p{
 					color: #000;

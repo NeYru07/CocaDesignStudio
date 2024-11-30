@@ -6,6 +6,11 @@ main{
     gap: 7.9375rem;
     padding: 6.5625rem 0 6.5625rem 7.5rem;
     position: relative;
+	 
+	svg{
+		width: 10.125rem;
+		height: 10.125rem;
+	}
 
     .circle1{
         position: absolute;
@@ -52,8 +57,8 @@ main{
         }
     }
     .images{
-        width: 1320px;
-        height: 634px;
+        width: 82.5rem;
+        height: 39.625rem;
         display: flex;
         flex-direction: row;
         gap: 2rem;
@@ -290,15 +295,15 @@ main{
 									}
 									.twitter:hover .twitter-bg{
 										fill: #00acee;
-										opacity: 0.3;
+										opacity: 0.5;
 									}
 									.in:hover .in-bg{
 										fill: #0e76a8;
-										opacity: 0.3;
+										opacity: 0.5;
 									}
 									.inst:hover .inst-bg{
 										fill: #aa4187;
-										opacity: 0.3;
+										opacity: 0.5;
 									}
                         }
                     }

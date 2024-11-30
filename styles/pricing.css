@@ -161,8 +161,8 @@ main .pricing .card:hover {
   -webkit-transform: scale(1.05);
       -ms-transform: scale(1.05);
           transform: scale(1.05);
-  -webkit-box-shadow: 4px 4px 25px rgb(189, 189, 189);
-          box-shadow: 4px 4px 25px rgb(189, 189, 189);
+  -webkit-box-shadow: 0.25rem 0.25rem 1.5625rem rgb(189, 189, 189);
+          box-shadow: 0.25rem 0.25rem 1.5625rem rgb(189, 189, 189);
 }
 main .pricing .card {
   width: 23.625rem;
@@ -252,6 +252,10 @@ main .pricing .card .centered .paricing-content .price .bg {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+main .pricing .card .centered .paricing-content .price .bg svg {
+  width: 1.125rem;
+  height: 1.25rem;
 }
 main .pricing .card .centered .paricing-content .price .price-text {
   width: 20.625rem;
@@ -343,6 +347,8 @@ main .pricing .card .centered .paricing-content .included .yes {
 }
 main .pricing .card .centered .paricing-content .included .yes li {
   list-style-image: url(../src/svg/li.svg);
+  size: 1.25rem;
+  line-height: 16px;
   font-size: 1rem;
   line-height: 1.625rem;
   font-weight: 500;

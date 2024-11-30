@@ -149,7 +149,7 @@ main{
 
 		.card:hover{
 			transform: scale(1.05);
-			box-shadow: 4px 4px 25px rgb(189, 189, 189);
+			box-shadow: 0.25rem 0.25rem 1.5625rem rgb(189, 189, 189);
 		}
 			.card{
 				width: 23.625rem;
@@ -214,6 +214,11 @@ main{
 												display: flex;
 												align-items: center;
 												justify-content: center;
+
+												svg{
+													width: 1.125rem;
+													height: 1.25rem;
+												}
 											}
 
 											.price-text{
@@ -292,6 +297,8 @@ main{
 
 											.yes li{
 												list-style-image: url(../src/svg/li.svg);
+												size: 1.25rem;
+												line-height: 16px;
 												font-size: 1rem;
 												line-height: 1.625rem;
 												font-weight: 500;

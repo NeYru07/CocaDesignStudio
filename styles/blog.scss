@@ -1,0 +1,637 @@
+main{
+	width: 90rem;
+	height: 89.0625rem;
+	position: relative;
+	overflow: hidden;
+
+	.circle1{
+		position: absolute;
+		top: 0.0625rem;
+		left: 3.1875rem;
+		z-index: -1;
+		width: 32.8125rem;
+		height: 32.8125rem;
+	}
+
+	.circle2{
+		position: relative;
+		top: 20.875rem;
+		left: 59.9375rem;
+		z-index: -1;
+	}
+
+	h1{
+		position: absolute;
+		top: 5.9375rem;
+		left: 7.5rem;
+		font-size: 4.5rem;
+		font-weight: bold;
+		line-height: 120%;
+		letter-spacing: -0.1875rem;
+	}
+
+	.line{
+		width: 4.75rem;
+		height: 0;
+		border-top: 0.0625rem solid #000;
+		position: absolute;
+		top: 16.0625rem;
+		left: 7.5rem;
+	}
+
+	h2{
+		max-width: 42.125rem;
+		font-size: 2rem;
+		font-weight: 600;
+		line-height: 2.625rem;
+		letter-spacing: -0.0625rem;
+		position: absolute;
+		top: 14.625rem;
+		left: 13.75rem;
+	}
+
+	.slider{
+		width: 90rem;
+		height: 48.0625rem;
+		display: flex;
+		flex-direction: column;
+		gap: 5rem;
+		padding-left: 3.1875rem;
+		z-index: 100;
+
+		.navigation{
+			width: 50.0625rem;
+			height: 2.75rem;
+			display: flex;
+			gap: 1rem;
+
+			p{
+				width: max-content;
+				font-size: 1rem;
+				font-weight: 600;
+				line-height: 1.5rem;
+				color: #7E8492;
+				cursor: pointer;
+			}
+
+			.active{
+				color: #1D1E25;
+				text-decoration: underline 0.0938rem;
+				text-underline-offset: 0.1875rem;
+			}
+		}
+
+		.swiper-wrapper{
+			width: 90rem;
+			height: 40.3125rem;
+			display: flex;
+			user-select: none;
+			gap: 2rem;
+			z-index: 100;
+		}
+
+		.swiper {
+			width: 90rem;
+			height: 40.3125rem;
+			display: flex;
+			z-index: 100;
+		 }
+				
+				.card{
+					width: 32.1875rem;
+					height: 40.3125rem; 
+
+				img{
+					width: 32.1875rem;
+					height: 26.75rem;
+				}
+	
+				.less{
+					width: 25.3125rem;
+					height: 26.75rem;
+				}
+	
+				.text-block{
+					width: 32.1875rem;
+					height: 12.5625rem;
+					display: flex;
+					flex-direction: column;
+					gap: 1.5rem;
+	
+	
+					.top-p{
+						width: 13.625rem;
+						font-size: 0.875rem;
+						font-weight: 400;
+						line-height: 150%;
+						color: #7E8492;
+					}
+	
+					span{
+						width: 32.1875rem;
+						height: 9.75rem;
+						display: flex;
+						flex-direction: column;
+						gap: 1rem;
+	
+						h3{
+							max-width: 28.6875rem;
+							font-size: 2rem;
+							font-weight: bold;
+							line-height: 2.5rem;
+							letter-spacing: -0.0625rem;
+						}
+	
+						.p1{
+							max-width: 30.25rem;
+							font-size: 1.25rem;
+							font-weight: 500;
+							line-height: 1.875rem;
+							color: #7E8492;
+						}
+					}		
+				}
+			}
+		
+		.card2{
+			width: 25.3125rem !important;
+
+			.text-block{
+				width: 25.3125rem !important;
+
+				span{
+					width: 25.3125rem !important;
+				}
+
+				p{
+					width: 24.375rem;
+				}
+			}
+		}
+		
+	}
+}
+
+.articles{
+	width: 90rem;
+	height: 133.5625rem;
+	display: flex;
+	padding: 7.5rem;
+	background: #1D1E25;
+	color: #fff;
+
+	.articles-content{
+		width: 75rem;
+		height: 118.5625rem;
+		display: flex;
+		gap: 2rem;
+
+		.spacing{
+			width: 36.5rem;
+			height: 118.5625rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+		span{
+			width: 36.5rem;
+			height: 13.5rem;
+			display: flex;
+			flex-direction: column;
+			gap: 1.5rem;
+
+			a{
+				width: 36.5rem;
+				font-size: 2.5rem;
+				font-weight: 600;
+				line-height: 120%;
+				color: #fff;
+				text-underline-offset: 0.5rem;
+			}
+
+			p{
+				color: #7E8492;
+				font-size: 1.125rem;
+				font-weight: 500;
+				line-height: 2rem;
+			}
+		}
+		.span2{
+			width: 32.25rem;
+
+			a{
+				width: 32.25rem;
+			}
+		}
+
+		.high{
+			width: 36.5rem;
+			height: 61.9375rem;
+			display: flex;
+			flex-direction: column;
+			gap: 1.5rem;
+
+			img{
+				width: 36.5rem;
+				height: 46.9375rem;
+			}
+		}
+
+		.low{
+			width: 36.5rem;
+			height: 46.6875rem;
+			display: flex;
+			flex-direction: column;
+			gap: 1.5rem;
+		}
+
+
+
+	}
+}
+
+.last-block{
+	width: 90rem;
+	height: 100rem;
+	padding: 11.5625rem 2.75rem;
+
+	.block-content{
+		width: 84.5rem;
+		height: 76.875rem;
+		display: flex;
+		flex-direction: column;
+		gap: 5rem;
+
+		.block-heading{
+			width: 75rem;
+			height: 9.6875rem;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			.text-heading{
+				width: 27.1875rem;
+				height: 9.6875rem;
+				display: flex;
+				flex-direction: column;
+				gap: 1.5rem;
+
+				h1{
+					font-size: 3.5rem;
+					font-weight: 600;
+					line-height: 120%;
+					letter-spacing: -0.125rem;
+				}
+
+				p{
+					color: #7E8492;
+					font-size: 1.125rem;
+					font-weight: 500;
+					line-height: 2rem;
+				}
+			}
+
+			.btns{
+				width: 7.25rem;
+				height: 3.125rem;
+				display: flex;
+				gap: 1rem;
+
+				button{
+					width: 3.125rem;
+					height: 3.125rem;
+					border-radius: 6.25rem;
+					border: none;
+					cursor: pointer;
+					transition: 0.3s ease;
+				}
+
+				.white{
+					background-color: #fff;
+					border: 0.0625rem solid #CED1D8;
+				}
+
+				.white:hover{
+					background-color: #ebebeb;
+				}
+
+				.white:active, .black:active{
+					transform: scale(0.95);
+					transition: 100ms;
+				}
+
+				.black{
+					background-color: #1D1E25;
+				}
+
+				.black:hover{
+					background-color: #3e3f4e;
+				}
+			}
+		}
+
+		.columns-block{
+			width: 84.5rem;
+			height: 62.1875rem;
+			display: flex;
+			gap: 2rem;
+
+			h1{
+				font-size: 2rem;
+				font-weight: 600;
+				line-height: 2.625rem;
+				letter-spacing: -0.0625rem;
+			}
+
+			p{
+				color: #7E8492;
+				font-size: 1.125rem;
+				line-height: 2rem;
+				font-weight: 500;
+			}
+
+			button{
+				width: 10.9375rem;
+				height: 3.5rem;
+				background-color: #fff;
+				color: #1D1E25;
+				border-radius: 6.25rem;
+				border: 0.0625rem solid #CED1D8;
+				font-size: 1rem;
+				font-weight: bold;
+				line-height: 1.5rem;
+				transition: 0.3s;
+				cursor: pointer;
+			}
+
+			button:hover{
+				background-color: #ebebeb;
+			}
+
+			button:active{
+				transform: scale(0.98);
+				transition: 100ms;
+			}
+
+			.column1{
+				width: 25.375rem;
+				height: 58.5625rem;
+				display: flex;
+				flex-direction: column;
+				gap: 1.5rem;
+
+				img{
+					width: 25.375rem;
+					height: 35.1875rem;
+				}
+
+				.bottom-block1{
+					display: flex;
+					flex-direction: column;
+					gap: 1.5rem;
+					width: 25.375rem;
+					height: 21.875rem;
+
+					.bottom-text1{
+						width: 25.375rem;
+						height: 16.875rem;
+						display: flex;
+						flex-direction: column;
+						gap: 1rem;
+					}
+				}
+			}
+
+			.column2{
+				width: 25.375rem;
+				height: 45.9375rem;
+				display: flex;
+				flex-direction: column;
+				gap: 1.5rem;
+
+				img{
+					width: 25.375rem;
+					height: 20.5625rem;
+				}
+
+				.bottom-block2{
+					display: flex;
+					flex-direction: column;
+					gap: 1.5rem;
+					width: 25.375rem;
+					height: 23.875rem;
+
+					.bottom-text2{
+						width: 25.375rem;
+						height: 18.875rem;
+						display: flex;
+						flex-direction: column;
+						gap: 1rem;
+					}
+				}
+			}
+
+			.column3{
+				width: 25.375rem;
+				height: 62.1875rem;
+				display: flex;
+				flex-direction: column;
+				gap: 1.5rem;
+
+				img{
+					width: 29.75rem;
+					height: 43.4375rem;
+				}
+
+				.bottom-block3{
+					display: flex;
+					flex-direction: column;
+					gap: 1.5rem;
+					width: 29.75rem;
+					height: 17.25rem;
+
+					.bottom-text3{
+						width: 29.75rem;
+						height: 12.25rem;
+						display: flex;
+						flex-direction: column;
+						gap: 1rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+footer{
+	width: 90rem;
+	height: 53.1875rem;
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+
+	.circle1{
+		width: 38.8125rem;
+		height: 38.8125rem;
+		position: absolute;
+		bottom: 18.6875rem;
+		left: 10.875rem;
+	}
+
+	.circle2{
+		width: 32.8125rem;
+		height: 32.8125rem;
+		position: absolute;
+		top: 7.8125rem;
+		left: 73.4375rem;
+	}
+
+	h1{
+		position: absolute;
+		top: 7rem;
+		left: 7.5rem;
+		font-size: 4rem;
+		font-weight: 600;
+		line-height: 120%;
+	}
+
+	.line{
+		width: 4.75rem;
+		border-bottom: 0.0625rem solid #000;
+		position: absolute;
+		top: 15.0625rem;
+		left: 7.5rem;
+	}
+
+	h3{
+		max-width: 33.9375rem;
+		font-size: 1.5rem;
+		line-height: 2.125rem;
+		font-weight: 600;
+		position: absolute;
+		top: 13.8125rem;
+		left: 13.75rem;
+	}
+
+	button{
+		width: 11.0625rem;
+		height: 3.5rem;
+		position: absolute;
+		top: 11.8438rem;
+		left: 71.4375rem;
+		background-color: #1D1E25;
+		color: #fff;
+		border-radius: 6.25rem;
+		border: none;
+		transition: 0.3s ease;
+		cursor: pointer;
+		font-size: 1rem;
+		font-weight: bold;
+	}
+
+	button:hover{
+		background-color: #3e3f4e;
+	}
+	button:active{
+		transform: scale(0.98);
+		transition: 0.1s;
+	}
+
+	.naviation{
+		width: 90rem;
+		height: 28.4375rem;
+		position: relative;
+		top: 24.75rem;
+
+		svg{
+			position: absolute;
+			top: 5rem;
+			left: 7.5rem;
+		}
+
+		h4{
+			max-width: 18.25rem;
+			font-size: 1rem;
+			font-weight: 500;
+			line-height: 1.625rem;
+			position: absolute;
+			top: 9.375rem;
+			left: 7.5rem;
+		}
+
+		.nav-grid{
+			width: 47.75rem;
+			height: 12rem;
+			display: flex;
+			justify-content: space-between;
+			position: absolute;
+			top: 4.75rem;
+			left: 34.75rem;
+
+			.block{
+				width: max-content;
+				display: flex;
+				flex-direction: column;
+				gap: 1.5rem;
+
+				b{
+					font-size: 1rem;
+					line-height: 1.5rem;
+				}
+
+				span{
+					width: max-content;
+					display: flex;
+					flex-direction: column;
+					gap: 1rem;
+					
+					a{
+						width: max-content;
+						position: relative;
+						font-size: 1rem;
+						line-height: 1.5rem;
+						font-weight: 400;
+						color: #000;
+						text-decoration: none;
+					}
+					a:after {
+						display: block;
+						position: absolute;
+						left: 0;
+						width: 0;
+						height: 0.075rem;
+						background-color: #000000;
+						content: "";
+						transition: width 0.3s ease-out;
+				  }
+				  
+				  a:hover:after,
+				  a:focus:after {
+						width: 100%;
+				  }
+				}
+			}
+		}
+		.line{
+			width: 75rem;
+			border-bottom: 0.0625rem solid #CED1D8;
+			position: absolute;
+			top: 21.6875rem;
+			left: 7.5rem;
+		}
+
+		p{
+			font-size: 1rem;
+			line-height: 1.5rem;
+			font-weight: 400;
+			color: #AFB3BB;
+			position: absolute;
+			top: 24.5625rem;
+			left: 36rem;
+		}
+	}
+}

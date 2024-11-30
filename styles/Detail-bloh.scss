@@ -1,0 +1,420 @@
+.title{
+	width: 90rem;
+	height: 22.125rem;
+	padding: 3rem 13.75rem 3rem 15.625rem;
+
+	h1{
+		max-width: 56.875rem;
+		font-size: 4.5rem;
+		font-weight: bold;
+		line-height: 120%;
+		letter-spacing: -0.1875rem;
+	}
+}
+
+.body{
+	width: 90rem;
+	height: 117.1875rem;
+	display: flex;
+	flex-direction: column;
+	gap: 3.375rem;
+	padding: 2rem 15.625rem;
+
+	.who{
+		width: 58.75rem;
+		height: 3.5rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: end;
+
+		p{
+			font-size: 1.125rem;
+			font-weight: 500;
+			line-height: 150%;
+			color: #7E8492;
+		}
+
+		.people{
+			width: 18.625rem;
+			height: 3.5rem;
+			display: flex;
+			gap: 1.5rem;
+
+			img{
+				width: 3.5rem;
+				height: 3.5rem;
+			}			
+
+			span{
+				width: 12.9375rem;
+				height: 3.5rem;
+				display: flex;
+				gap: 0.25rem;
+				flex-direction: column;
+
+				h3{
+					font-size: 1.125rem;
+					font-weight: 600;
+					line-height: 1.625rem;
+				}
+
+				p{
+					font-size: 1rem;
+					line-height: 1.625rem;
+					font-weight: 500;
+					color: #7E8492;
+				}
+			}
+		}
+	}
+
+	.big-img{
+		width: 58.75rem;
+		height: 34.0625rem;
+	}
+
+	p{
+		font-size: 1.125rem;
+		font-weight: 400;
+		line-height: 2rem;
+	}
+
+	.title-text{
+		width: 58.75rem;
+		height: 28.5rem;
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+
+		h1{
+			font-size: 2.5rem;
+			font-weight: 600;
+			line-height: 120%;
+		}
+	}
+
+	.content{
+		width: 55.8125rem;
+		height: 17.625rem;
+		display: flex;
+		gap: 3rem;
+
+		img{
+			width: 12.5rem;
+			height: 12.5rem;
+		}
+
+		.block{
+			width: 40.3125rem;
+			height: 17.625rem;
+			display: flex;
+			flex-direction: column;
+			gap: 0.875rem;
+
+			.articles{
+				width: 23.625rem;
+				height: 2rem;
+				display: flex;
+				gap: 1.5rem;
+
+				h5{
+					font-size: 1rem;
+					font-weight: 500;
+					line-height: 1.625rem;
+					width: fit-content;
+				}
+
+				.article-icons{
+					display: flex;
+					gap: 2rem;
+
+					svg{
+						width: 2rem;
+						height: 2rem; 
+						cursor: pointer;
+
+						path{
+							transition: 200ms;
+						}									
+					}
+
+					.facebook:hover .facebook-bg{
+						fill: #3b5998;
+						opacity: 0.5;
+					}
+					.twitter:hover .twitter-bg{
+						fill: #00acee;
+						opacity: 0.5;
+					}
+					.in:hover .in-bg{
+						fill: #0e76a8;
+						opacity: 0.5;
+					}
+					.inst:hover .inst-bg{
+						fill: #aa4187;
+						opacity: 0.5;
+					}
+				}
+			}
+
+			.text-block{
+				width: 40.3125rem;
+				height: 14.75rem;
+				display: flex;
+				flex-direction: column;
+				gap: 1rem;
+
+				.who-written{
+					width: 12.9375rem;
+					height: 7.75rem;
+					display: flex;
+					flex-direction: column;
+					gap: 1rem;
+
+					p{
+						font-size: 1rem;
+						font-weight: 500;
+						line-height: 1.625rem;
+						color: #7E8492;
+					}
+
+					h1{
+						font-size: 2rem;
+						font-weight: 600;
+						line-height: 2.625rem;
+						letter-spacing: -0.0625rem;
+					}
+				}
+
+				h4{
+					font-size: 1.125rem;
+					line-height: 2rem;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+}
+
+footer{
+	width: 90rem;
+	height: 48.5625rem;
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	background: #1D1E25;
+
+	.gap{
+		width: 75rem;
+		height: 10.3125rem;
+		display: flex;
+		justify-content: space-between;
+		position: absolute;
+		top: 7rem;
+		left: 7.5rem;
+		align-items: center;
+		
+	button{
+		width: 11.0625rem;
+		height: 3.5rem;
+		background-color: #ffffff;
+		color: #1D1E25;
+		border-radius: 6.25rem;
+		border: none;
+		transition: 0.3s ease;
+		cursor: pointer;
+		font-size: 1rem;
+		font-weight: bold;
+	}
+
+	button:hover{
+		background-color: #e0e0e0;
+	}
+	button:active{
+		transform: scale(0.98);
+		transition: 0.1s;
+	}
+
+		span{
+			width: 45rem;
+			height: 10.3125rem;
+			display: flex;
+			flex-direction: column;
+			gap: 1.5rem;
+			color: #fff;
+
+			h1{
+				font-size: 4rem;
+				font-weight: 600;
+				line-height: 120%;
+			}
+		
+			h3{
+				max-width: 33.9375rem;
+				font-size: 1.125rem;
+				line-height: 2rem;
+				font-weight: 500;
+				color: #AFB3BB;
+			}
+		}
+	}
+
+	.naviation{
+		width: 90rem;
+		height: 28.4375rem;
+		position: relative;
+		top: 20.125rem;
+		color: #fff;
+
+		.logo{
+			position: absolute;
+			top: 5rem;
+			left: 7.5rem;
+		}
+
+		h4{
+			max-width: 18.25rem;
+			font-size: 1rem;
+			font-weight: 500;
+			line-height: 1.625rem;
+			position: absolute;
+			top: 9.375rem;
+			left: 7.5rem;
+			color: #7E8492;
+		}
+
+		.nav-grid{
+			width: 47.75rem;
+			height: 12rem;
+			display: flex;
+			justify-content: space-between;
+			position: absolute;
+			top: 4.75rem;
+			left: 34.75rem;
+
+			.block{
+				width: max-content;
+				display: flex;
+				flex-direction: column;
+				gap: 1.5rem;
+
+				b{
+					font-size: 1rem;
+					line-height: 1.5rem;
+				}
+
+				span{
+					width: max-content;
+					display: flex;
+					flex-direction: column;
+					gap: 1rem;
+					
+					a{
+						width: max-content;
+						position: relative;
+						font-size: 1rem;
+						line-height: 1.5rem;
+						font-weight: 400;
+						color: #7E8492;
+						text-decoration: none;
+					}
+					a:after {
+						display: block;
+						position: absolute;
+						left: 0;
+						width: 0;
+						height: 0.075rem;
+						background-color: #fff;
+						content: "";
+						transition: width 0.3s ease-out;
+				  }
+				  
+				  a:hover:after,
+				  a:focus:after {
+						width: 100%;
+				  }
+				}
+			}
+		}
+		.line{
+			width: 75rem;
+			border-bottom: 0.0625rem solid #606060;
+			position: absolute;
+			top: 21.6875rem;
+			left: 7.5rem;
+		}
+
+		.bottom{
+			width: 75rem;
+			height: 1.25rem;
+			position: relative;
+			top: 23.5625rem;
+			left: 7.5rem;
+			display: flex;
+			justify-content: space-between;
+
+			p{
+				font-size: 0.875rem;
+				line-height: 1.25rem;
+				font-weight: 500;
+				color: #fff;
+			}
+
+			.bottom-content{
+				width: 36.5rem;
+				height: 1.25rem;
+				display: flex;
+				gap: 4.5rem;
+				align-items: center;
+
+				.social-media{
+					width: 9.5rem;
+					height: 1.25rem;
+					display: flex;
+					gap: 1.5rem;
+
+					svg{
+						cursor: pointer;
+					}
+
+					path{
+						transition: 200ms;
+					}
+
+					.facebook:hover path{
+						fill: #3b5998;
+					}
+					.twitter:hover path{
+						fill: #00acee;
+					}
+					.inst:hover path{
+						fill:  #aa4187;
+					}
+					.IN:hover path{
+						fill: #0e76a8;
+					}
+				}
+
+				.footer-links{
+					width: 22.5rem;
+					height: 1.25rem;
+					display: flex;
+					gap: 2.5rem;
+
+					a{
+						color: #fff;
+						text-decoration: none;
+						font-size: 0.875rem;
+						line-height: 1.25rem;
+						font-weight: 500;
+					}
+				}
+			}
+		}
+
+	}
+}
+
