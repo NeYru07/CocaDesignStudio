@@ -1,28 +1,25 @@
-document.querySelectorAll('.faq-question').forEach((question) => {
-	question.addEventListener('click', async () => {
-	  const icon = question.querySelector('.faq-icon');
-	  const answer = question.nextElementSibling;
- 
-	  if (!answer.classList.contains('open')) {
-		 // Открытие: одновременно поворачиваем "+" и меняем на "-"
-		 await rotateAndChangeIcon(icon, '+', '-');
-	  } else {
-		 // Закрытие: меняем "-" обратно на "+"
-		 await rotateAndChangeIcon(icon, '-', '+');
-	  }
- 
-	  // Раскрытие/скрытие текста
-	  answer.classList.toggle('open');
+document.querySelectorAll('.faq-question').forEach((el) => {
+	el.addEventListener('click', () => {
+		 let content = el.nextElementSibling;
+		 let icon = el.querySelector('.faq-icon');
+
+		 if (content.style.maxHeight) {
+
+			  document.querySelectorAll('.faq-answer').forEach((answer) => answer.style.maxHeight = null);
+
+			  document.querySelectorAll('.faq-icon').forEach((icon) => icon.textContent = "+");
+		 } else {
+
+			  document.querySelectorAll('.faq-answer').forEach((answer) => answer.style.maxHeight = null);
+
+			  document.querySelectorAll('.faq-icon').forEach((icon) => icon.textContent = "+");
+
+			  content.style.maxHeight = content.scrollHeight + 'px';
+			  icon.textContent = "-";
+		 }
 	});
- });
- 
- // Асинхронная функция для управления анимацией
- async function rotateAndChangeIcon(icon, from, to) {
-	icon.style.transform = 'rotate(75deg)'; // Начинаем поворот
-	await new Promise((resolve) => setTimeout(resolve, 100)); // Ждём завершения анимации (300ms)
-	icon.textContent = to; // Меняем символ
-	icon.style.transform = 'rotate(0deg)'; // Возвращаем в нормальное положение
- }
+});
+
  
 //  Смена цен
  document.getElementById('pricing-toggle-checkbox').addEventListener('change', function (event) {

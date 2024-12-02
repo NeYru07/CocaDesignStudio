@@ -238,6 +238,7 @@ main{
 							height: 2.75rem;
 							padding-left: 0.875rem;
 							border-radius: 0.5rem;
+							font-size: 1rem;
 						}
 	
 						input::placeholder{
@@ -275,12 +276,18 @@ main{
 								border-left: none;
 								width: 32rem;
 								border-radius: 0 0.5rem 0.5rem 0;
+								font-size: 1rem;
+							}
+							
+							input::placeholder{
+								font-size: 1rem;
 							}
 
 							select{
 								border: 0.0625rem solid #EDEDED;
 								border-right: none;
 								border-radius: 0.5rem 0 0 0.5rem;
+								font-size: 1.125rem;
 							}
 
 							select:focus{
@@ -301,6 +308,7 @@ main{
 							padding-left: 0.875rem;
 							border-radius: 0.5rem;
 							resize: none;
+							font-size: 1.125rem;
 						}
 
 						textarea:focus{
@@ -412,6 +420,8 @@ footer{
 			position: absolute;
 			top: 5rem;
 			left: 7.5rem;
+			width: 8.75rem;
+			height: 4.125rem;
 		}
 
 		h4{
@@ -517,6 +527,8 @@ footer{
 
 					svg{
 						cursor: pointer;
+						width: 1.25rem;
+						height: 1.25rem;
 					}
 				}
 

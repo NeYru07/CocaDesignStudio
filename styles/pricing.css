@@ -410,7 +410,7 @@ main .pricing .dark .best-offers p {
 
 .faq-body {
   width: 90rem;
-  height: 91.875rem;
+  height: 62.875rem;
   padding-top: 5.125rem;
   padding-left: 12.25rem;
   display: -webkit-box;
@@ -609,6 +609,8 @@ footer .naviation .logo {
   position: absolute;
   top: 5rem;
   left: 7.5rem;
+  width: 8.75rem;
+  height: 4.125rem;
 }
 footer .naviation h4 {
   max-width: 18.25rem;
@@ -736,6 +738,8 @@ footer .naviation .bottom .bottom-content .social-media {
 }
 footer .naviation .bottom .bottom-content .social-media svg {
   cursor: pointer;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 footer .naviation .bottom .bottom-content .social-media path {
   -webkit-transition: 200ms;

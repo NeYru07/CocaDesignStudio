@@ -269,6 +269,7 @@ main .location .contacts .contact b {
   height: 2.75rem;
   padding-left: 0.875rem;
   border-radius: 0.5rem;
+  font-size: 1rem;
 }
 .forms .form .form-content .main-window .form-fields .sim input::-webkit-input-placeholder {
   color: #7E8492;
@@ -333,11 +334,28 @@ main .location .contacts .contact b {
   border-left: none;
   width: 32rem;
   border-radius: 0 0.5rem 0.5rem 0;
+  font-size: 1rem;
+}
+.forms .form .form-content .main-window .form-fields .form-phone .phone-country input::-webkit-input-placeholder {
+  font-size: 1rem;
+}
+.forms .form .form-content .main-window .form-fields .form-phone .phone-country input::-moz-placeholder {
+  font-size: 1rem;
+}
+.forms .form .form-content .main-window .form-fields .form-phone .phone-country input:-ms-input-placeholder {
+  font-size: 1rem;
+}
+.forms .form .form-content .main-window .form-fields .form-phone .phone-country input::-ms-input-placeholder {
+  font-size: 1rem;
+}
+.forms .form .form-content .main-window .form-fields .form-phone .phone-country input::placeholder {
+  font-size: 1rem;
 }
 .forms .form .form-content .main-window .form-fields .form-phone .phone-country select {
   border: 0.0625rem solid #EDEDED;
   border-right: none;
   border-radius: 0.5rem 0 0 0.5rem;
+  font-size: 1.125rem;
 }
 .forms .form .form-content .main-window .form-fields .form-phone .phone-country select:focus {
   outline: none;
@@ -354,6 +372,7 @@ main .location .contacts .contact b {
   padding-left: 0.875rem;
   border-radius: 0.5rem;
   resize: none;
+  font-size: 1.125rem;
 }
 .forms .form .form-content .main-window .form-fields .form-message textarea:focus {
   outline: none;
@@ -473,6 +492,8 @@ footer .naviation .logo {
   position: absolute;
   top: 5rem;
   left: 7.5rem;
+  width: 8.75rem;
+  height: 4.125rem;
 }
 footer .naviation h4 {
   max-width: 18.25rem;
@@ -600,6 +621,8 @@ footer .naviation .bottom .bottom-content .social-media {
 }
 footer .naviation .bottom .bottom-content .social-media svg {
   cursor: pointer;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 footer .naviation .bottom .bottom-content .footer-links {
   width: 22.5rem;

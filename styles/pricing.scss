@@ -357,7 +357,7 @@ main{
 
 .faq-body{
 	width: 90rem;
-	height: 91.875rem;
+	height: 62.875rem;
 	padding-top: 5.125rem;
 	padding-left: 12.25rem;
 	display: flex;
@@ -525,6 +525,8 @@ footer{
 			position: absolute;
 			top: 5rem;
 			left: 7.5rem;
+			width: 8.75rem;
+			height: 4.125rem;
 		}
 
 		h4{
@@ -630,6 +632,8 @@ footer{
 
 					svg{
 						cursor: pointer;
+						width: 1.25rem;
+						height: 1.25rem;
 					}
 
 					path{
